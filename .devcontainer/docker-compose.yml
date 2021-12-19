@@ -10,3 +10,6 @@ services:
     working_dir: '/tmp/work'
     volumes:
     - ../:/tmp/work
+    - .:/workspace:cached
+    - ~/.ssh:/root/.ssh #sshキー
+    - ~/.gitconfig:/root/.gitconfig

@@ -9,4 +9,5 @@
     "settings": {
         "editor.tabSize": 2,
     },
+    "postCreateCommand": "apt update && apt install -y git",
 }
